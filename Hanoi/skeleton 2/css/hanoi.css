@@ -1,0 +1,66 @@
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+
+.hanoi {
+  display: block;
+  padding: 0;
+  width: 600px;
+  height: 300px;
+  margin: auto;
+}
+
+ul {
+  position: relative;
+  padding: 0;
+  width: 30%;
+  height: 250px;
+  float: left;
+  margin: 1.5%;
+  border-top: 10px solid black;
+  list-style-type: none;
+  cursor: pointer;
+  transform: rotate(0.5turn);
+}
+
+ul:hover {
+  border-top: 10px solid blue;
+}
+
+li {
+  /*position: absolute;
+  bottom: 0;*/
+  height: 20%;
+  background-color: gray;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.small {
+  width: 32%;
+  border-top-right-radius: 40% 50%;
+  border-top-left-radius: 40% 50%;
+  border-bottom-right-radius: 40% 50%;
+  border-bottom-left-radius: 40% 50%;
+}
+.medium {
+  width: 65%;
+  border-top-right-radius: 20% 50%;
+  border-top-left-radius: 20% 50%;
+  border-bottom-right-radius: 20% 50%;
+  border-bottom-left-radius: 20% 50%;
+}
+.large {
+  width: 100%;
+  border-top-right-radius: 15% 50%;
+  border-top-left-radius: 15% 50%;
+  border-bottom-right-radius: 15% 50%;
+  border-bottom-left-radius: 15% 50%;
+}
+
+ul.clicked {
+  border-top: 10px solid red;
+}

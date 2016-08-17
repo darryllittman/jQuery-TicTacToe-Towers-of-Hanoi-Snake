@@ -1,0 +1,32 @@
+
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: cursive;
+}
+
+ul {
+  padding: 0;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  border: 1px solid black;
+  list-style-type: none;
+}
+
+li {
+  height: 33%;
+  width: 33%;
+  float: left;
+  border: 1px solid black;
+  background-color: gray;
+  cursor: pointer;
+  text-align: center;
+  font-size: 150px;
+}
+
+li:hover {
+  background-color: yellow;
+}
